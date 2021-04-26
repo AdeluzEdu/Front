@@ -276,7 +276,7 @@ address {
 dl, ol, ul {
   margin-top: 0;
   margin-bottom: 1rem;
-}
+}form
 
 ol ol, ol ul, ul ol, ul ul {
   margin-bottom: 0;
@@ -10550,3 +10550,82 @@ h1, h2, h3, h4, h5 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+#formulario{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #343a40;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#formulario input{
+  width: 100%;
+}
+
+
+a{
+  text-decoration: none;
+  color: #343a40;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a:hover{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+#acompanhamentoProdutos{
+  display: flex;
+}
+
+#acompanhamentoProdutos h5{
+  text-align: center;
+  margin: auto;
+
+  padding-left: 8px;
+  padding-right: 8px;
+  
+  border-style: solid;
+  border-radius: 25px;
+}
+
+#acompanhamentoProdutos p{
+  margin-top: 10px;
+}
+
+#avaliacao{
+  display: flex;
+}
+
+#avaliacao input{
+  margin-right: 10px;
+}
+
+#avaliacao label{
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+#topPedido{
+  display: flex;
+}
+
+#topPedido button{
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+#topPedido form{
+  margin-left: 40%;
+}
+
+#topPedido label{
+  margin-top: 15px;
+  margin-right: 10px;
+}
